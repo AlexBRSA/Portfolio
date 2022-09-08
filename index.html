@@ -1,0 +1,186 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Подключаем CSS -->
+      <!-- Подключаем google fonts (Heebo) -->
+      <link rel="shortcut icon" href="/img/avatar.png" type="image/png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- Подключаем google fonts перед css -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+      <!-- Ширина для планшета -->
+      <meta name="viewport" content="width=device-width">
+      <!-- Заголовок страницы в браузере -->
+		<title> Портфолио </title>
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+      <div class="wrapper">
+            <header class="header">
+            <div class="header__container">
+               <a href="" class="header__logo"></a>
+               <div class="header__menu menu">
+                  <div class="menu__icon">
+                     <span></span>
+                  </div>
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li ><a data-goto="" href="index.html" class="menu__link">Главная</a></li>
+                        <li ><a data-goto="" href="work.html" class="menu__link">Мои работы</a></li>
+                        <li ><a data-goto="" href="blog.html" class="menu__link">Блог</a></li>
+                  </nav>
+               </div>
+            </div>
+            </header>
+         <!-- Отображаемое наполнение страницы -->
+		   <main class="main">
+            <div class="main__container"> 
+            <div class="main__tex">
+               <h1 class="main__title"> Здравствуйте,<br> я Александр <br>
+               фронтенд разработчик. 
+               </h1>
+               <!-- Блок- тело -->   
+               </br>
+               <span class="main__text"> "Большинство хороших программистов делают свою работу не потому, 
+               что ожидают оплаты или признания, а потому что получают удовольствие от программирования." (Linus Torvalds)
+               </Span>
+               </br>
+               <!-- Блок- кнопка -->
+               <div class="main__button"><a href="AlexBro Frontend.docx" class="main__button-red">
+               Сохранить резюме
+               </a></div>
+            </div>
+            <!-- Блок- картинка --> 
+            <div class="main__image">
+               <img class="alex" src="/img/alex1.jpg" alt="фото">
+            </div>  
+         </div>
+         <!--Блок с постами-->
+         <div class="posts">
+            <div class="view__container">
+               <p class="title__posts">Последние события </p>
+               <a id="button" href="#" class="posts__link">Смотреть все</a>
+            </div>   
+               <div class="posts__container">
+                  <div class="page-posts2">
+                     <p class="title2">Запись на курсы "Разработка web-проектов на Pyton"</p>
+                     <Div><p class="date2"> 28 Июля 2022 </p> 
+                     <img class="obgect" src="/img/2.svg" alt="черточка">
+                     <p class="date2"> Pyton </p></Div>
+                     <p class="text2">Изучение Backend-разработки. </p>
+                  </div>
+                  <div class="page-posts2">
+                     <p class="title2">Изучаю основы программирование на JavaScript (Эрик Фримен, Элизабет Робсон)</p>
+                     <Div><p class="date2"> 01 Июня 2022 </p> 
+                     <img class="obgect" src="/img/2.svg" alt="черточка">
+                     <p class="date2"> JavaScript </p></Div>
+                     <p class="text2">Создание проекта на JavaScript. </p>
+                  </div>
+                  <div id="rect" class="page-posts1"> 
+                     <p class="title2">Проект по созданию магазина</p>
+                     <Div><p class="date2"> 28 Май 2022 </p> 
+                     <img class="obgect" src="/img/2.svg" alt="черточка">
+                     <p class="date2"> Полноценный проект </p></Div>
+                     <p class="text2">В этом проекте столкунулся с трудностями по JavaScript. </p>
+                  </div>
+                  <div id="rect01" class="page-posts1">
+                     <p class="title1"> Верстка сайта портфолио</p>
+                     <Div><p class="date1"> 05 Марта 2022 </p> 
+                     <img class="obgect" src="/img/2.svg" alt="черточка">
+                     <p class="date1"> Портфолио </p></Div>
+                     <div class="text1"><p> Данный проект был очень важен для меня. Появилось полимание, что я достиг. В этом проекте
+                     используется JS (бургер) и адаптация на все устройства. </p>
+                     </div>
+                  </div>
+                  <div id="rect02" class="page-posts1">
+                     <p class="title2">Стилизация проекта при помощи псевдоклассов</p>
+                     <Div><p class="date2"> 12 Февраля 2022 </p> 
+                     <img class="obgect" src="/img/2.svg" alt="черточка">
+                     <p class="date2"> Псевдоклассы </p></Div>
+                     <p class="text2">В этом проекте рассмотрены псевдоклассы состояния (:hover, :active, :visited, :focus ) 
+                     и псевдоклассы положения в коде (:first-child, :last-child, :nth-child (odd, even), ). </p>
+                  </div>
+               </div>   
+         </div> 
+         <!--Блок с работами-->
+         <div class="works__container"> 
+            <span class="featured">Избранные работы </span>
+            <div class="featuredworks">
+               <div class="works1">
+                  <!-- Блок- картинка --> 
+                  <div  class="works__image">
+                     <a href="/bike.html"> <img class="image" src = "/img/03.jpg" alt="работы"/> </a>   
+                  </div> 
+                  <div class="design">
+                  <!-- Блок- заголовок -->
+                  <a href="/bike.html"> <p class="works__title"> Сайт магазина </p> </a>
+                  <!-- Блок- дата -->
+                     <Div> 
+                     <img class="obgect2" src="/img/2022.jpg" alt="год">
+                     <p class="works__date1"> Велосипеды </p>
+                     </Div>
+                  <!-- Блок- тело --> 
+                  <p class="works__text"> «Есть нечто таинственное в бесшумном приближении велосипедиста, 
+                  когда он появляется в поле зрения, проносится мимо и исчезает». (Издание «Популярная наука», 1891 год)
+                  </div>
+               </div>
+               <div class="works1">
+                  <!-- Блок- картинка --> 
+                  <div class="works__image">
+                     <a href="/MNTN.html"> <img class="image" src="/img/02.jpg" alt="работы"> </a>
+                  </div> 
+                  <div class="design">
+                  <!-- Блок- заголовок -->
+                  <a href="/MNTN.html"> <p class="works__title"> Путешествия </p> </a>
+                  <!-- Блок- дата -->
+                     <Div> 
+                     <img class="obgect2" src="/img/2022.jpg" alt="год">
+                     <p class="works__date1"> Саит лэндинг </p>
+                  </Div>
+                  <!-- Блок- тело --> 
+                  <p class="works__text"> Саит лэндинг с паралакс эффектом
+                  </p>
+                  </div>
+               </div>
+               <div class="works1">
+                  <!-- Блок- картинка --> 
+                  <div class="works__image">
+                     <a href="/rest.html"><img class="image" src="/img/01.jpg" alt="работы"> </a>
+                  </div> 
+                  <div class="design">
+                  <!-- Блок- заголовок -->
+                  <a href="/rest.html"><p class="works__title"> Ресторан (В разработке) </p> </a>
+                     <!-- Блок- дата -->
+                     <Div> 
+                     <img class="obgect2" src="/img/2022.jpg" alt="год">
+                     <p class="works__date1"> Сайт ресторана </p>
+                  </Div>
+                  <!-- Блок- тело --> 
+                  <p class="works__text"> Возникли вопросы по JS, в процессе. 
+                  </p>
+                  </div>
+               </div>
+            </div>
+         </div>  
+      </main>
+         <!--Блок с иконками-->
+         <footer class="fotter__container">
+         <div class="icons">
+         <img class="icon0" src="/img/fb.svg" alt="фэйсбук">
+         <img class="icon1" src="/img/insta.svg" alt="инстаграм">
+         <img class="icon2" src="/img/Group.svg" alt="твиттер">
+         <img class="icon3" src="/img/Linkedin.svg" alt="линкид">
+         </div>
+         <div class="footer__page">Copyright ©2022 All rights reserved </div>
+         </footer>
+         <script src="js/skript.js"></script>
+         </div> 
+      </div> 
+   </body>
+</html>
